@@ -16,7 +16,8 @@ class LoginController: UIViewController {
     @IBOutlet var googleSignInBtn: UIButton!
     @IBOutlet var facebookSignInBtn: UIButton!
     @IBOutlet var instagramSignInBtn: UIButton!
-
+    @IBOutlet weak var getStarted: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

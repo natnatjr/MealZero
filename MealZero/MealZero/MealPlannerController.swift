@@ -9,6 +9,11 @@ import UIKit
 
 class MealPlannerController: UIViewController {
 
+    @IBOutlet weak var mealPlannerButton: UIButton!
+    @IBOutlet weak var selectRecepiesButton: UIButton!
+    @IBOutlet weak var scheduleMealButton: UIButton!
+    @IBOutlet weak var calculateNutrientButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
