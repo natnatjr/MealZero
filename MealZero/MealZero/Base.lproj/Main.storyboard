@@ -301,7 +301,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="223" id="KpF-c9-Hgd"/>
                                 </constraints>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -602,22 +602,170 @@
             </objects>
             <point key="canvasLocation" x="1800.7633587786258" y="-25.35211267605634"/>
         </scene>
+        <!--Meals Controller-->
+        <scene sceneID="q6C-K3-j3h">
+            <objects>
+                <viewController id="mjn-5P-Rjm" customClass="MealsController" customModule="MealZero" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BeN-Dd-HNU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kcal" translatesAutoresizingMaskIntoConstraints="NO" id="aHS-xm-NPN">
+                                <rect key="frame" x="-229" y="-58" width="849" height="517"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="water" translatesAutoresizingMaskIntoConstraints="NO" id="QOt-Lq-VSg">
+                                <rect key="frame" x="12" y="467" width="368" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top" translatesAutoresizingMaskIntoConstraints="NO" id="cls-94-UdM">
+                                <rect key="frame" x="27" y="59" width="339" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="premiumBtn" translatesAutoresizingMaskIntoConstraints="NO" id="Qmp-rZ-xs2">
+                                <rect key="frame" x="27" y="59" width="339" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dailyMeals" translatesAutoresizingMaskIntoConstraints="NO" id="orS-E6-KX1">
+                                <rect key="frame" x="16" y="559" width="77" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="edit" translatesAutoresizingMaskIntoConstraints="NO" id="LgZ-IN-OjQ">
+                                <rect key="frame" x="346" y="553" width="31" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breakfast" translatesAutoresizingMaskIntoConstraints="NO" id="ydN-O1-6lc">
+                                <rect key="frame" x="0.0" y="590" width="391" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lunch" translatesAutoresizingMaskIntoConstraints="NO" id="72w-bl-qdT">
+                                <rect key="frame" x="12" y="650" width="368" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tab_bar_bg" translatesAutoresizingMaskIntoConstraints="NO" id="uAj-eE-fLY">
+                                <rect key="frame" x="0.0" y="772" width="393" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_diary_active" translatesAutoresizingMaskIntoConstraints="NO" id="Il2-T6-IEf">
+                                <rect key="frame" x="10" y="782" width="105" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icon_coach" translatesAutoresizingMaskIntoConstraints="NO" id="4NY-s5-Xy3">
+                                <rect key="frame" x="185" y="782" width="133" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icon_results" translatesAutoresizingMaskIntoConstraints="NO" id="FDa-3h-vbD">
+                                <rect key="frame" x="260" y="782" width="133" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_explore" translatesAutoresizingMaskIntoConstraints="NO" id="QNQ-TB-ZO6">
+                                <rect key="frame" x="104" y="782" width="105" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="inU-FD-HBq"/>
+                        <color key="backgroundColor" red="0.94941550490000004" green="0.96029227969999997" blue="0.9843173623" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tzp-ef-Kh8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-787" y="685"/>
+        </scene>
+        <!--Meal Controller-->
+        <scene sceneID="3FV-vO-qUg">
+            <objects>
+                <viewController id="HPn-sQ-a87" customClass="MealController" customModule="MealZero" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v7m-gr-irm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kcal" translatesAutoresizingMaskIntoConstraints="NO" id="giz-5D-skd">
+                                <rect key="frame" x="-231" y="-57" width="849" height="517"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="water" translatesAutoresizingMaskIntoConstraints="NO" id="2sA-WF-hZN">
+                                <rect key="frame" x="9" y="468" width="368" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top" translatesAutoresizingMaskIntoConstraints="NO" id="rBC-AH-XUf">
+                                <rect key="frame" x="27" y="59" width="339" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="premiumBtn" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-FR-dZB">
+                                <rect key="frame" x="27" y="59" width="339" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dailyMeals" translatesAutoresizingMaskIntoConstraints="NO" id="iLv-4Y-L80">
+                                <rect key="frame" x="16" y="560" width="77" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="edit" translatesAutoresizingMaskIntoConstraints="NO" id="8Mx-ZE-3U1">
+                                <rect key="frame" x="346" y="554" width="31" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breakfast_detail" translatesAutoresizingMaskIntoConstraints="NO" id="9Pk-Ii-SAh">
+                                <rect key="frame" x="-130" y="591" width="646" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tab_bar_bg" translatesAutoresizingMaskIntoConstraints="NO" id="qgM-NX-vPF">
+                                <rect key="frame" x="0.0" y="771" width="393" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_diary_active" translatesAutoresizingMaskIntoConstraints="NO" id="DH9-Cg-XE0">
+                                <rect key="frame" x="10" y="781" width="105" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_explore" translatesAutoresizingMaskIntoConstraints="NO" id="8ap-Gb-hy7">
+                                <rect key="frame" x="104" y="781" width="105" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icon_coach" translatesAutoresizingMaskIntoConstraints="NO" id="Zgi-EG-OAC">
+                                <rect key="frame" x="185" y="781" width="133" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icon_results" translatesAutoresizingMaskIntoConstraints="NO" id="9r6-Rr-HYz">
+                                <rect key="frame" x="260" y="781" width="133" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ik1-QQ-QVG"/>
+                        <color key="backgroundColor" red="0.94941550490000004" green="0.96029227969999997" blue="0.9843173623" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h2N-ry-lsJ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114" y="685"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Icon_coach" width="69" height="43"/>
+        <image name="Icon_results" width="35" height="43"/>
         <image name="aboutUsImage" width="346" height="254"/>
+        <image name="breakfast" width="334" height="107"/>
+        <image name="breakfast_detail" width="334" height="190"/>
+        <image name="dailyMeals" width="76" height="13"/>
+        <image name="edit" width="34" height="34"/>
         <image name="getPremiumBtn" width="334" height="58"/>
         <image name="greenRectangle" width="10" height="75"/>
+        <image name="icon_diary_active" width="35" height="43"/>
+        <image name="icon_explore" width="47" height="43"/>
+        <image name="kcal" width="375" height="468"/>
         <image name="left-arrow 2" width="41" height="41"/>
         <image name="logInBtn" width="363" height="106"/>
+        <image name="lunch" width="334" height="75"/>
         <image name="minusBtn" width="30" height="30"/>
         <image name="outlineBrandsApple" width="24" height="24"/>
         <image name="outlineBrandsFacebook" width="24" height="24"/>
         <image name="outlineBrandsGoogle" width="24" height="24"/>
         <image name="outlineBrandsInstagram" width="24" height="24"/>
         <image name="plusBtn" width="30" height="30"/>
+        <image name="premiumBtn" width="334" height="58"/>
         <image name="redRectangle" width="10" height="75"/>
         <image name="saveBtn" width="363" height="106"/>
         <image name="signUp" width="363" height="106"/>
+        <image name="tab_bar_bg" width="375" height="85"/>
+        <image name="top" width="329" height="44"/>
+        <image name="water" width="334" height="75"/>
         <image name="yellowRectangle" width="10" height="75"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
