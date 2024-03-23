@@ -20,6 +20,7 @@
 		8FDF14D52BA3D3E6003BFF19 /* MealsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF14D42BA3D3E6003BFF19 /* MealsController.swift */; };
 		8FDF14D72BA3D3F4003BFF19 /* MealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF14D62BA3D3F4003BFF19 /* MealController.swift */; };
 		BC585B052BA468E000D956C2 /* MealPlannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC585B042BA468E000D956C2 /* MealPlannerController.swift */; };
+		BCD197412BAF249D00AFF3FA /* ScheduleMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD197402BAF249D00AFF3FA /* ScheduleMealViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8FDF14D42BA3D3E6003BFF19 /* MealsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsController.swift; sourceTree = "<group>"; };
 		8FDF14D62BA3D3F4003BFF19 /* MealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealController.swift; sourceTree = "<group>"; };
 		BC585B042BA468E000D956C2 /* MealPlannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlannerController.swift; sourceTree = "<group>"; };
+		BCD197402BAF249D00AFF3FA /* ScheduleMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleMealViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,20 +74,45 @@
 			children = (
 				8FAD9AEF2BA12ACD00715DED /* AppDelegate.swift */,
 				8FAD9AF12BA12ACD00715DED /* SceneDelegate.swift */,
-				8FAD9AF32BA12ACD00715DED /* RegisterController.swift */,
-				8FD1F5352BA4667400B9E939 /* CoachController.swift */,
-				8FDF14D42BA3D3E6003BFF19 /* MealsController.swift */,
-				8FDF14D62BA3D3F4003BFF19 /* MealController.swift */,
-				8F84C82D2BA3422C00615245 /* AboutUsController.swift */,
-				8F84C82B2BA3404200615245 /* LoginController.swift */,
-				8FAF2E512BA344A300B9EDFC /* PreferencesController.swift */,
-				BC585B042BA468E000D956C2 /* MealPlannerController.swift */,
+				BCD197442BAF284E00AFF3FA /* ViewControllers */,
 				8FAD9AF52BA12ACD00715DED /* Main.storyboard */,
 				8FAD9AFA2BA12ACE00715DED /* LaunchScreen.storyboard */,
 				8FAD9AF82BA12ACE00715DED /* Assets.xcassets */,
 				8FAD9AFD2BA12ACE00715DED /* Info.plist */,
 			);
 			path = MealZero;
+			sourceTree = "<group>";
+		};
+		BCD197442BAF284E00AFF3FA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCD197462BAF28B300AFF3FA /* UserViewControllers */,
+				BCD197452BAF286B00AFF3FA /* TabBarViewControllers */,
+				8F84C82D2BA3422C00615245 /* AboutUsController.swift */,
+				8FAF2E512BA344A300B9EDFC /* PreferencesController.swift */,
+				BCD197402BAF249D00AFF3FA /* ScheduleMealViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BCD197452BAF286B00AFF3FA /* TabBarViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FD1F5352BA4667400B9E939 /* CoachController.swift */,
+				8FDF14D62BA3D3F4003BFF19 /* MealController.swift */,
+				8FDF14D42BA3D3E6003BFF19 /* MealsController.swift */,
+				BC585B042BA468E000D956C2 /* MealPlannerController.swift */,
+			);
+			path = TabBarViewControllers;
+			sourceTree = "<group>";
+		};
+		BCD197462BAF28B300AFF3FA /* UserViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FAD9AF32BA12ACD00715DED /* RegisterController.swift */,
+				8F84C82B2BA3404200615245 /* LoginController.swift */,
+			);
+			path = UserViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +189,7 @@
 				8FAF2E522BA344A300B9EDFC /* PreferencesController.swift in Sources */,
 				8FDF14D52BA3D3E6003BFF19 /* MealsController.swift in Sources */,
 				8FDF14D72BA3D3F4003BFF19 /* MealController.swift in Sources */,
+				BCD197412BAF249D00AFF3FA /* ScheduleMealViewController.swift in Sources */,
 				BC585B052BA468E000D956C2 /* MealPlannerController.swift in Sources */,
 				8FAD9AF42BA12ACD00715DED /* RegisterController.swift in Sources */,
 				8F84C82C2BA3404200615245 /* LoginController.swift in Sources */,

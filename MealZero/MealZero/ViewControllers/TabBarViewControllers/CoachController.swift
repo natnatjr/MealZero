@@ -9,6 +9,8 @@ import UIKit
 
 class CoachController: UIViewController {
 
+    @IBOutlet weak var btnSavePreferences: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
