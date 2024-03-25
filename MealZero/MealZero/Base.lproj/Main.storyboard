@@ -1128,19 +1128,19 @@
                                     <segue destination="HPn-sQ-a87" kind="show" identifier="toResultsVC" id="qS9-X5-H7I"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellipse4" translatesAutoresizingMaskIntoConstraints="NO" id="gMw-gH-b8p">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food_image4" translatesAutoresizingMaskIntoConstraints="NO" id="gMw-gH-b8p">
                                 <rect key="frame" x="29" y="508" width="125" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellipse6" translatesAutoresizingMaskIntoConstraints="NO" id="esO-JP-LYe">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food_image6" translatesAutoresizingMaskIntoConstraints="NO" id="esO-JP-LYe">
                                 <rect key="frame" x="134" y="508" width="125" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellipse2" translatesAutoresizingMaskIntoConstraints="NO" id="lqa-PG-qDG">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food_image2" translatesAutoresizingMaskIntoConstraints="NO" id="lqa-PG-qDG">
                                 <rect key="frame" x="239" y="508" width="125" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ellipse1" translatesAutoresizingMaskIntoConstraints="NO" id="3KB-AR-EeC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="food_image1" translatesAutoresizingMaskIntoConstraints="NO" id="3KB-AR-EeC">
                                 <rect key="frame" x="47" y="604" width="317" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1318,8 +1318,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Kbg-vN-rht"/>
-        <segue reference="wqc-e8-Z6g"/>
-        <segue reference="D4a-yY-SkJ"/>
+        <segue reference="qS9-X5-H7I"/>
+        <segue reference="Y9i-3k-4Kd"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Icon_coach" width="69" height="43"/>
@@ -1330,10 +1330,10 @@
         <image name="breakfast_detail" width="334" height="190"/>
         <image name="dailyMeals" width="76" height="13"/>
         <image name="edit" width="34" height="34"/>
-        <image name="ellipse1" width="269" height="246"/>
-        <image name="ellipse2" width="117.33333587646484" height="117"/>
-        <image name="ellipse4" width="117" height="117"/>
-        <image name="ellipse6" width="117" height="117"/>
+        <image name="food_image1" width="269" height="246"/>
+        <image name="food_image2" width="117.33333587646484" height="117"/>
+        <image name="food_image4" width="117" height="117"/>
+        <image name="food_image6" width="117" height="117"/>
         <image name="getPremiumBtn" width="334" height="58"/>
         <image name="greenRectangle" width="10" height="75"/>
         <image name="icon_diary_active" width="35" height="43"/>
