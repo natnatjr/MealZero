@@ -17,6 +17,7 @@
 		8FAD9AFC2BA12ACE00715DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAD9AFA2BA12ACE00715DED /* LaunchScreen.storyboard */; };
 		8FAF2E522BA344A300B9EDFC /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAF2E512BA344A300B9EDFC /* PreferencesController.swift */; };
 		8FD1F5362BA4667400B9E939 /* CoachController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1F5352BA4667400B9E939 /* CoachController.swift */; };
+		8FD1F5382BA46C5600B9E939 /* MealPlannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1F5372BA46C5600B9E939 /* MealPlannerController.swift */; };
 		8FDF14D52BA3D3E6003BFF19 /* MealsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF14D42BA3D3E6003BFF19 /* MealsController.swift */; };
 		8FDF14D72BA3D3F4003BFF19 /* MealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF14D62BA3D3F4003BFF19 /* MealController.swift */; };
 		BC585B052BA468E000D956C2 /* MealPlannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC585B042BA468E000D956C2 /* MealPlannerController.swift */; };
@@ -36,6 +37,7 @@
 		8FAD9AFD2BA12ACE00715DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FAF2E512BA344A300B9EDFC /* PreferencesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesController.swift; sourceTree = "<group>"; };
 		8FD1F5352BA4667400B9E939 /* CoachController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachController.swift; sourceTree = "<group>"; };
+		8FD1F5372BA46C5600B9E939 /* MealPlannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlannerController.swift; sourceTree = "<group>"; };
 		8FDF14D42BA3D3E6003BFF19 /* MealsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsController.swift; sourceTree = "<group>"; };
 		8FDF14D62BA3D3F4003BFF19 /* MealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealController.swift; sourceTree = "<group>"; };
 		BC585B042BA468E000D956C2 /* MealPlannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlannerController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,13 @@
 				8FAD9AF12BA12ACD00715DED /* SceneDelegate.swift */,
 				BCD197442BAF284E00AFF3FA /* ViewControllers */,
 				8FAD9AF52BA12ACD00715DED /* Main.storyboard */,
+				8FD1F5372BA46C5600B9E939 /* MealPlannerController.swift */,
+				8FD1F5352BA4667400B9E939 /* CoachController.swift */,
+				8FDF14D42BA3D3E6003BFF19 /* MealsController.swift */,
+				8FDF14D62BA3D3F4003BFF19 /* MealController.swift */,
+				8F84C82D2BA3422C00615245 /* AboutUsController.swift */,
+				8F84C82B2BA3404200615245 /* LoginController.swift */,
+				8FAD9AF82BA12ACE00715DED /* Assets.xcassets */,
 				8FAD9AFA2BA12ACE00715DED /* LaunchScreen.storyboard */,
 				8FAD9AF82BA12ACE00715DED /* Assets.xcassets */,
 				8FAD9AFD2BA12ACE00715DED /* Info.plist */,
