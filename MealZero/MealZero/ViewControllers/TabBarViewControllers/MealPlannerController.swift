@@ -1,22 +1,19 @@
 //
-//  LoginController.swift
+//  MealPlannerController.swift
 //  MealZero
 //
-//  Created by Alex Arsentev on 2024-03-14.
+//  Created by Kaloyan Palazov on 2024-03-15.
 //
 
 import UIKit
 
-class LoginController: UIViewController {
-    
-    @IBOutlet var emailField: UITextField!
-    @IBOutlet var passwordField: UITextField!
-    @IBOutlet var signInBtn: UIButton!
-    @IBOutlet var appleSignInBtn: UIButton!
-    @IBOutlet var googleSignInBtn: UIButton!
-    @IBOutlet var facebookSignInBtn: UIButton!
-    @IBOutlet var instagramSignInBtn: UIButton!
+class MealPlannerController: UIViewController {
 
+    @IBOutlet weak var mealPlannerButton: UIButton!
+    @IBOutlet weak var selectRecepiesButton: UIButton!
+    @IBOutlet weak var scheduleMealButton: UIButton!
+    @IBOutlet weak var calculateNutrientButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
