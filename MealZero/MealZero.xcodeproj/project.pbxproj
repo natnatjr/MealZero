@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F84C82C2BA3404200615245 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F84C82B2BA3404200615245 /* LoginController.swift */; };
-		8F84C82E2BA3422C00615245 /* AboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F84C82D2BA3422C00615245 /* AboutUsController.swift */; };
+		8F46EED72BB3104500EA59ED /* AboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F46EED62BB3104500EA59ED /* AboutUsController.swift */; };
+		8F46EED92BB3108600EA59ED /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F46EED82BB3108600EA59ED /* LoginController.swift */; };
+		8F46EEDB2BB310A900EA59ED /* CoachController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F46EEDA2BB310A900EA59ED /* CoachController.swift */; };
+		8F46EEDD2BB310D800EA59ED /* MealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F46EEDC2BB310D800EA59ED /* MealController.swift */; };
+		8F46EEDF2BB3110D00EA59ED /* MealsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F46EEDE2BB3110D00EA59ED /* MealsController.swift */; };
 		8FAD9AF02BA12ACD00715DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD9AEF2BA12ACD00715DED /* AppDelegate.swift */; };
 		8FAD9AF22BA12ACD00715DED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD9AF12BA12ACD00715DED /* SceneDelegate.swift */; };
 		8FAD9AF42BA12ACD00715DED /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD9AF32BA12ACD00715DED /* RegisterController.swift */; };
@@ -16,17 +19,16 @@
 		8FAD9AF92BA12ACE00715DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FAD9AF82BA12ACE00715DED /* Assets.xcassets */; };
 		8FAD9AFC2BA12ACE00715DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FAD9AFA2BA12ACE00715DED /* LaunchScreen.storyboard */; };
 		8FAF2E522BA344A300B9EDFC /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAF2E512BA344A300B9EDFC /* PreferencesController.swift */; };
-		8FD1F5362BA4667400B9E939 /* CoachController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1F5352BA4667400B9E939 /* CoachController.swift */; };
-		8FD1F5382BA46C5600B9E939 /* MealPlannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1F5372BA46C5600B9E939 /* MealPlannerController.swift */; };
-		8FDF14D52BA3D3E6003BFF19 /* MealsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF14D42BA3D3E6003BFF19 /* MealsController.swift */; };
-		8FDF14D72BA3D3F4003BFF19 /* MealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF14D62BA3D3F4003BFF19 /* MealController.swift */; };
 		BC585B052BA468E000D956C2 /* MealPlannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC585B042BA468E000D956C2 /* MealPlannerController.swift */; };
 		BCD197412BAF249D00AFF3FA /* ScheduleMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD197402BAF249D00AFF3FA /* ScheduleMealViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8F84C82B2BA3404200615245 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		8F84C82D2BA3422C00615245 /* AboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsController.swift; sourceTree = "<group>"; };
+		8F46EED62BB3104500EA59ED /* AboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsController.swift; sourceTree = "<group>"; };
+		8F46EED82BB3108600EA59ED /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8F46EEDA2BB310A900EA59ED /* CoachController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachController.swift; sourceTree = "<group>"; };
+		8F46EEDC2BB310D800EA59ED /* MealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealController.swift; sourceTree = "<group>"; };
+		8F46EEDE2BB3110D00EA59ED /* MealsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsController.swift; sourceTree = "<group>"; };
 		8FAD9AEC2BA12ACD00715DED /* MealZero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealZero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FAD9AEF2BA12ACD00715DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FAD9AF12BA12ACD00715DED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,10 +38,7 @@
 		8FAD9AFB2BA12ACE00715DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FAD9AFD2BA12ACE00715DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FAF2E512BA344A300B9EDFC /* PreferencesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesController.swift; sourceTree = "<group>"; };
-		8FD1F5352BA4667400B9E939 /* CoachController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachController.swift; sourceTree = "<group>"; };
 		8FD1F5372BA46C5600B9E939 /* MealPlannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlannerController.swift; sourceTree = "<group>"; };
-		8FDF14D42BA3D3E6003BFF19 /* MealsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsController.swift; sourceTree = "<group>"; };
-		8FDF14D62BA3D3F4003BFF19 /* MealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealController.swift; sourceTree = "<group>"; };
 		BC585B042BA468E000D956C2 /* MealPlannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlannerController.swift; sourceTree = "<group>"; };
 		BCD197402BAF249D00AFF3FA /* ScheduleMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleMealViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,12 +78,6 @@
 				BCD197442BAF284E00AFF3FA /* ViewControllers */,
 				8FAD9AF52BA12ACD00715DED /* Main.storyboard */,
 				8FD1F5372BA46C5600B9E939 /* MealPlannerController.swift */,
-				8FD1F5352BA4667400B9E939 /* CoachController.swift */,
-				8FDF14D42BA3D3E6003BFF19 /* MealsController.swift */,
-				8FDF14D62BA3D3F4003BFF19 /* MealController.swift */,
-				8F84C82D2BA3422C00615245 /* AboutUsController.swift */,
-				8F84C82B2BA3404200615245 /* LoginController.swift */,
-				8FAD9AF82BA12ACE00715DED /* Assets.xcassets */,
 				8FAD9AFA2BA12ACE00715DED /* LaunchScreen.storyboard */,
 				8FAD9AF82BA12ACE00715DED /* Assets.xcassets */,
 				8FAD9AFD2BA12ACE00715DED /* Info.plist */,
@@ -97,9 +90,9 @@
 			children = (
 				BCD197462BAF28B300AFF3FA /* UserViewControllers */,
 				BCD197452BAF286B00AFF3FA /* TabBarViewControllers */,
-				8F84C82D2BA3422C00615245 /* AboutUsController.swift */,
 				8FAF2E512BA344A300B9EDFC /* PreferencesController.swift */,
 				BCD197402BAF249D00AFF3FA /* ScheduleMealViewController.swift */,
+				8F46EED62BB3104500EA59ED /* AboutUsController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -107,10 +100,10 @@
 		BCD197452BAF286B00AFF3FA /* TabBarViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8FD1F5352BA4667400B9E939 /* CoachController.swift */,
-				8FDF14D62BA3D3F4003BFF19 /* MealController.swift */,
-				8FDF14D42BA3D3E6003BFF19 /* MealsController.swift */,
 				BC585B042BA468E000D956C2 /* MealPlannerController.swift */,
+				8F46EEDA2BB310A900EA59ED /* CoachController.swift */,
+				8F46EEDC2BB310D800EA59ED /* MealController.swift */,
+				8F46EEDE2BB3110D00EA59ED /* MealsController.swift */,
 			);
 			path = TabBarViewControllers;
 			sourceTree = "<group>";
@@ -119,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				8FAD9AF32BA12ACD00715DED /* RegisterController.swift */,
-				8F84C82B2BA3404200615245 /* LoginController.swift */,
+				8F46EED82BB3108600EA59ED /* LoginController.swift */,
 			);
 			path = UserViewControllers;
 			sourceTree = "<group>";
@@ -195,15 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F46EEDF2BB3110D00EA59ED /* MealsController.swift in Sources */,
+				8F46EED92BB3108600EA59ED /* LoginController.swift in Sources */,
+				8F46EEDB2BB310A900EA59ED /* CoachController.swift in Sources */,
+				8F46EED72BB3104500EA59ED /* AboutUsController.swift in Sources */,
 				8FAF2E522BA344A300B9EDFC /* PreferencesController.swift in Sources */,
-				8FDF14D52BA3D3E6003BFF19 /* MealsController.swift in Sources */,
-				8FDF14D72BA3D3F4003BFF19 /* MealController.swift in Sources */,
 				BCD197412BAF249D00AFF3FA /* ScheduleMealViewController.swift in Sources */,
 				BC585B052BA468E000D956C2 /* MealPlannerController.swift in Sources */,
+				8F46EEDD2BB310D800EA59ED /* MealController.swift in Sources */,
 				8FAD9AF42BA12ACD00715DED /* RegisterController.swift in Sources */,
-				8F84C82C2BA3404200615245 /* LoginController.swift in Sources */,
-				8F84C82E2BA3422C00615245 /* AboutUsController.swift in Sources */,
-				8FD1F5362BA4667400B9E939 /* CoachController.swift in Sources */,
 				8FAD9AF02BA12ACD00715DED /* AppDelegate.swift in Sources */,
 				8FAD9AF22BA12ACD00715DED /* SceneDelegate.swift in Sources */,
 			);
